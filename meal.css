@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.header{
+    /* background-color: #28a746; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    color: white;
+    margin-bottom: 1.5rem;
+    background-color: #08AEEA;
+    background-image: linear-gradient(90deg, #08AEEA 28%, #2AF598 100%);
+    font-size: larger;
+    font-weight: 300;
+
+}
+
+.header img {
+    width: 6rem;
+    height: 6rem;
+    margin-right: 2.5rem;
+    border-radius: 1rem;
+}
+
+.footer {
+    font-size: large;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    padding: 0.1rem;
+    /* background: #28a745; */
+    color: white;
+    background-color: #08AEEA;
+    background-image: linear-gradient(90deg, #08AEEA 28%, #2AF598 100%);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    background: white;
+    gap: 10px;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+form div{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    font-weight:bold;
+    margin: 0.5rem;
+    padding: 10px;
+    width: 95%;
+}
+
+input {
+    margin:0.5rem;
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#calorieGoal{
+    margin:0.5rem;
+    padding: 10px;
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin: 0.5rem;
+    padding: 10px;
+    width: 95%;
+    background: #28a745;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #218838;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 0.5rem 0 ;
+    height: 1.25rem;
+    position: relative;
+}
+
+.progress {
+    height: 100%;
+    background-color: #28a745;
+    width: 0%;
+    text-align: center;
+    color: white;
+    line-height: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #f8f9fa;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.remove-btn {
+    width: 30%;
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.remove-btn:hover {
+    background: rgb(199, 1, 1);
+}
